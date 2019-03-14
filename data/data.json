@@ -2,12 +2,13 @@
     {
         "Name":"Billy Infante",
         "Title":"Java fullstack developer",
-        "YearOfBirth":"",
+        "YearOfBirth":"02/02/1996",
         "Phone": "",
-        "Email":"",
-        "Nationality":"",
+        "Email":"billy.infante@no.experis.com",
+        "Nationality":"Sweden",
         "Address":"",
         "About":"",
+        "picture": "/images/Billy_Infante.jpg",
         "Projects": {
                 "project1":"",
                 "project2":"",

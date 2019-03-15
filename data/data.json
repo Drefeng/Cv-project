@@ -7,7 +7,7 @@
         "Email":"billy.infante@no.experis.com",
         "Nationality":"Sweden",
         "Address":"",
-        "About":"",
+        "About":"Good boy",
         "picture": "/images/Billy_Infante.jpg",
         "Projects": {
                 "project1":"",
@@ -16,15 +16,11 @@
             },
         "Work experience": [
             {
-            "work1":{
+            "Experis Academy":{
                 "place":"",
                 "duration":""
                 },
-            "work2":{
-                "place":"",
-                "duration":""
-                },
-            "work3":{
+            "PayEx":{
                 "place":"",
                 "duration":""
                 }

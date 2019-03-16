@@ -7,9 +7,8 @@
         "Nationality":"",
         "Address":"",
         "About":"",
-        "picture": "",
-        "Projects": 
-        [
+        "Picture": "",
+        "Projects": [
             {
                 "project1":{
                     "name" : "",
@@ -40,6 +39,41 @@
                 "title" : "",
                 "place":"",
                 "duration":""
+                }
+            }
+        ],
+        "social" :[
+            {
+                "github":{
+                    "displayname" : "",
+                    "link" : ""
+                },
+                "twitter":{
+                    "displayname" : "",
+                    "link" : ""
+                },
+
+                "linkedin":{
+                    "displayname" : "",
+                    "link" : ""
+                }
+            }
+        ],
+
+        "Interests" :[
+            {
+                "Interests1":{
+                    "description" : "",
+                    "link" : ""
+                },
+                "Interests2":{
+                    "description" : "",
+                    "link" : ""
+                },
+
+                "Interests3":{
+                    "description" : "",
+                    "link" : ""
                 }
             }
         ]

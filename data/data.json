@@ -3,48 +3,80 @@
         "Name":"Billy Infante",
         "Title":"Java fullstack developer",
         "YearOfBirth":"02/02/1996",
-        "Phone": "********",
+        "Phone": "",
         "Email":"billy.infante@no.experis.com",
         "Nationality":"Sweden",
-        "Address":"*******",
+        "Address":"Hareveien 21b",
         "About":"Billy har en bachelorgrad i intelligente systemer fra Westerdals. Han er en utvikler med kompetanse i fullstack-utvikling og IoT, og er godt kjent med rammeverk som Spring(backend) og frontend biblioteker som ReactJS. Han kjenner godt til Java og byggverktøy Maven, og er kompetent med skytjenester som Firebase og Google Cloud Platform. Videre har han deltatt i skoleprosjekt der han har benyttet seg av agile prosessmetoder som Scrum og Kanban. Han liker å jobbe i team, men jobber også godt selvstendig.",
-        "picture": "/images/Billy_Infante.jpg",
+        "Picture": "/images/Billy_Infante.jpg",
         "Projects": [
             {
-                "IoT": {
-                    "name" : "Alarm system",
-                    "description" : "Bygget en alaram IoT enhet som varsler person når noen åpner et skap. Brukte particle photon og diverse sensorer for dette prosjektet."
+                "project1":{
+                    "name" : "",
+                    "description" : ""
                 },
 
-                "web application": {
-                    "name" : "Ecommerce A/B testing ved bruk av maskinlæring",
-                    "description" : "lage en E-commerce applikasjon som skal bruke maskinlæring for A/B testing. Teknologier vi brukte er tensorflow, google cloud platform, express, reactjs."
+                "project2": {
+                    "name" : "",
+                    "description" : ""
                 }
             }
         ],
         "Work experience": [
             {
-            "Experis Academy":{
-                "place":"Oslo",
-                "duration":"04/02/19 current"
+            "work1":{
+                "place":"",
+                "duration":""
                 },
-            "PayEx":{
-                "place":"Oslo",
-                "duration":"01/01/18 - 01/06/18"
+            "work2":{
+                "place":"",
+                "duration":""
                 }
             }
         ],
         "Education": [
             {
-            "Westerdals":{
-                "title" : "Bachelor intelligent Systems",
-                "place":"Oslo",
-                "duration":"2015-2018"
+            "school1":{
+                "title" : "",
+                "place":"",
+                "duration":""
+                }
+            }
+        ],
+        "social" :[
+            {
+                "github":{
+                    "displayname" : "",
+                    "link" : ""
+                },
+                "twitter":{
+                    "displayname" : "",
+                    "link" : ""
+                },
+
+                "linkedin":{
+                    "displayname" : "",
+                    "link" : ""
+                }
+            }
+        ],
+
+        "Interests" :[
+            {
+                "Interests1":{
+                    "description" : "",
+                    "link" : ""
+                },
+                "Interests2":{
+                    "description" : "",
+                    "link" : ""
+                },
+
+                "Interests3":{
+                    "description" : "",
+                    "link" : ""
                 }
             }
         ]
-    
-        }
-    
-    
+}
     

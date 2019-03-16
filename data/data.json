@@ -1,4 +1,4 @@
-{
+    {
         "Name":"",
         "Title":"",
         "YearOfBirth":"",
@@ -8,14 +8,15 @@
         "Address":"",
         "About":"",
         "picture": "",
-        "Projects": [
+        "Projects": 
+        [
             {
-                "IoT": {
+                "project1":{
                     "name" : "",
-                    "description""
+                    "description" : ""
                 },
 
-                "web application": {
+                "project2": {
                     "name" : "",
                     "description" : ""
                 }
@@ -23,11 +24,11 @@
         ],
         "Work experience": [
             {
-            "Experis Academy":{
+            "work1":{
                 "place":"",
                 "duration":""
                 },
-            "PayEx":{
+            "work2":{
                 "place":"",
                 "duration":""
                 }
@@ -35,7 +36,7 @@
         ],
         "Education": [
             {
-            "Westerdals":{
+            "school1":{
                 "title" : "",
                 "place":"",
                 "duration":""
@@ -43,6 +44,6 @@
             }
         ]
     }
-    
+                
     
     

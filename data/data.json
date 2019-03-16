@@ -10,86 +10,77 @@
         "Picture": "",
         "Projects": [
             {
-                "project1":{
                     "name" : "",
                     "description" : ""
-                }
             },
-            
+
+    
             {
-                 "project2": {
                     "name" : "",
                     "description" : ""
-                }
             }
             
         ],
         "Work experience": [
             {
-            "work1":{
                 "place":"",
-                "duration":""
-                }
+                "city" :"",
+                "startDate":"",
+                "endDate" :""
             },
 
             {
-                "work2":{
                 "place":"",
-                "duration":""
-                }
+                "city" :"",
+                "startDate":"",
+                "endDate" :""
             }
         ],
         "Education": [
             {
-            "school1":{
-                "title" : "",
-                "place":"",
-                "duration":""
-                }
+                "degree": "",
+                "level": "",
+                "institution": "",
+                "startDate": "",
+                "endDate": "",
+                "city": "",
+                "country": "",
+                "description": ""
             }
         ],
         "social" :[
             {
-                "github":{
-                    "displayname" : "",
-                    "link" : ""
-                }
+                    "linkedin" : ""
             },
 
-            {    "twitter":{
-                    "displayname" : "",
-                    "link" : ""
-                }
+            { 
+                    "github" : ""
             },
 
             {
-                "linkedin":{
-                    "displayname" : "",
-                    "link" : ""
-                }
+                    "twitter" : ""
             }
         ],
 
         "Interests" :[
             {
-                "Interests1":{
                     "description" : "",
-                    "link" : ""
-                }
+                    "title" : ""
+                
             },
 
             {
-                "Interests2":{
+   
                     "description" : "",
-                    "link" : ""
-                }
+                    "title" : ""
+                
             },
             
             {
-                "Interests3":{
+      
                     "description" : "",
-                    "link" : ""
-                }
+                    "title" : ""
+                
             }
         ]
     }

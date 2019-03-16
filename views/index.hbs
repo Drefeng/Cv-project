@@ -10,19 +10,16 @@
 <div class="left-col-block blocks">
     <header class="header theiaStickySidebar">
         <div class="profile-img">
-            <img src="{{data.Picture}}" class="img-responsive" alt=""/>
+            <img src="{{data.picture}}" class="img-responsive" alt=""/>
         </div>
         <div class="content">
-            <h1></h1>
+            <h1>{{data.name}}</h1>
             <span class="lead"></span>
 
             <div class="about-text">
                 <p>
-                    hello world
+                    {{data.about}}
                 </p>
-
-                <p>Energistically fabricate customized imperatives through cooperative catalysts for change.</p>
-
 
                 <!--<p><img src="img/Signature.png" alt="" class="img-responsive"/></p>-->
             </div>
@@ -116,7 +113,7 @@
                 <div class="progress-wrapper">
 
                     <div class="progress-item">
-                        <span class="progress-title">Marketing</span>
+                        <span class="progress-title">Reactjs</span>
 
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="62" aria-valuemin="0"
@@ -129,7 +126,7 @@
 
 
                     <div class="progress-item">
-                        <span class="progress-title">Market Research</span>
+                        <span class="progress-title">Java</span>
 
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
@@ -142,7 +139,7 @@
 
 
                     <div class="progress-item">
-                        <span class="progress-title">Organisational Skills</span>
+                        <span class="progress-title">Development</span>
 
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
@@ -165,7 +162,7 @@
                     </div>
                     <!-- /.skill-progress -->
                     <div class="progress-item">
-                        <span class="progress-title">Project Management</span>
+                        <span class="progress-title">Gaming</span>
 
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
@@ -194,33 +191,19 @@
             </div>
         </div>
         <!--.row-->
+        
         <div class="row">
             <div class="col-md-12">
-                <div class="content-item">
-                    <small>2015 - Present</small>
-                    <h3>Head of market research</h3>
-                    <h4>Computer & Motor Ltd.</h4>
 
-                    <p>United Kingdom, London</p>
-                </div>
-                <!-- .experience-item -->
+                {{#each data.work_experience}}
                 <div class="content-item">
-                    <small>2012 - 2015</small>
-                    <h3>Media Analyst</h3>
-                    <h4>BizzNiss</h4>
+                    <small>{{startDate}} - {{endDate}} </small>
+                    <h3>{{title}}</h3>
+                    <h4>{{place}}</h4>
 
-                    <p>United Kingdom, London</p>
+                    <p>{{country}}</p>
                 </div>
-                <!-- .experience-item -->
-                <div class="content-item">
-                    <small>2010 - 2012</small>
-                    <h3>Budget Administrator</h3>
-                    <h4>Somsom LLC</h4>
-
-                    <p>United Kingdom, London</p>
-                </div>
-                <!-- .experience-item -->
-            </div>
+                {{/each}}
         </div>
         <!--.row-->
     </div>
@@ -239,30 +222,15 @@
         <!--.row-->
         <div class="row">
             <div class="col-md-12">
+                {{#each data.education}}
                 <div class="content-item">
-                    <small>2010 - 2012</small>
-                    <h3>MA Product Design</h3>
-                    <h4>University of California</h4>
+                    <small>{{startDate}} - {{endDate}}</small>
+                    <h3>{{level}} - {{degree}}</h3>
+                    <h4>{{institution}}</h4>
 
-                    <p>United Kingdom, London</p>
+                    <p>{{country}}, {{city}}</p>
                 </div>
-                <!-- .experience-item -->
-                <div class="content-item">
-                    <small>2007 - 2010</small>
-                    <h3>Business marketing course</h3>
-                    <h4>Royal Academy of Business</h4>
-
-                    <p>United Kingdom, London</p>
-                </div>
-                <!-- .experience-item -->
-                <div class="content-item">
-                    <small>2002 - 2006</small>
-                    <h3>BA (Hons) Design</h3>
-                    <h4>University of Michigan</h4>
-
-                    <p>United Kingdom, London</p>
-                </div>
-                <!-- .experience-item -->
+                {{/each}}
             </div>
         </div>
         <!--.row-->
@@ -277,7 +245,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h2>Interest</h2>
+                    <h2>Projects</h2>
                 </div>
             </div>
         </div>
@@ -285,28 +253,13 @@
 
         <div class="row">
             <div class="col-md-12">
+                {{#each data.projects}}
                 <div class="content-item">
-                    <h3>Books</h3>
+                    <h3>{{name}}</h3>
 
-                    <p>Proactively extend market-driven e-tailers rather than enterprise-wide supply chains.
-                        Collaboratively embrace 24/7 processes rather than adaptive users. Seamlessly monetize
-                        alternative e-business.</p>
+                    <p>{{description}}</p>
                 </div>
-                <div class="content-item">
-                    <h3>Sports</h3>
-
-                    <p>Assertively grow optimal methodologies after viral technologies. Appropriately develop
-                        frictionless technology for adaptive functionalities. Competently iterate functionalized
-                        networks for best-of-breed services.</p>
-
-                </div>
-                <div class="content-item">
-                    <h3>Art</h3>
-
-                    <p>Dramatically utilize superior infomediaries whereas functional core competencies.
-                        Enthusiastically repurpose synergistic vortals for customer directed portals. Interactively
-                        pursue sustainable leadership via.</p>
-                </div>
+                {{/each}}
             </div>
         </div>
         <!-- .row -->
@@ -402,24 +355,24 @@
             <div class="col-md-12">
                 <address>
                     <strong>Address</strong><br>
-                    1355 Market Street, Suite 900<br>
-                    San Francisco, CA 94103
+                    {{data.address.postNumber}}, {{data.address.streetAddress}}<br>
+                    {{data.address.city}}, {{data.address.country}}
 
                 </address>
                 <address>
                     <strong>Phone Number</strong><br>
-                    +61 3 8376 6284
+                    {{data.phone}}
                 </address>
 
                 <address>
                     <strong>Mobile Number</strong><br>
-                    987 654 321
+                    {{data.phone}}
                 </address>
 
 
                 <address>
                     <strong>Email</strong><br>
-                    <a href="mailto:#">coffee@amelie.me</a>
+                    <a href="mailto:#">{{data.email}}</a>
                 </address>
             </div>
         </div>

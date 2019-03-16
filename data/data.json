@@ -1,19 +1,19 @@
 {
-    "Name":"Billy Infante",
-    "Title":"Java fullstack developer",
-    "YearOfBirth":"02/02/1996",
-    "Phone": "55 55 55 55",
-    "Email":"Billy.Infante@no.experis.com",
-    "Nationality":"Swedish",
-    "About":"Billy har en bachelorgrad i intelligente systemer fra Westerdals. Han er en utvikler med kompetanse i fullstack-utvikling og IoT, og er godt kjent med rammeverk som Spring(backend) og frontend biblioteker som ReactJS. Han kjenner godt til Java og byggverktøy Maven, og er kompetent med skytjenester som Firebase og Google Cloud Platform. Videre har han deltatt i skoleprosjekt der han har benyttet seg av agile prosessmetoder som Scrum og Kanban. Han liker å jobbe i team, men jobber også godt selvstendig.",
-    "Picture": "/images/Billy_Infante.jpg",
+    "name":"Billy Infante",
+    "title":"Java fullstack developer",
+    "yearofbirth":"02/02/1996",
+    "phone": "55 55 55 55",
+    "email":"Billy.Infante@no.experis.com",
+    "nationality":"Swedish",
+    "about":"Billy har en bachelorgrad i intelligente systemer fra Westerdals. Han er en utvikler med kompetanse i fullstack-utvikling og IoT, og er godt kjent med rammeverk som Spring(backend) og frontend biblioteker som ReactJS. Han kjenner godt til Java og byggverktøy Maven, og er kompetent med skytjenester som Firebase og Google Cloud Platform. Videre har han deltatt i skoleprosjekt der han har benyttet seg av agile prosessmetoder som Scrum og Kanban. Han liker å jobbe i team, men jobber også godt selvstendig.",
+    "picture": "/images/Billy_Infante.jpg",
 
 
     "address": {
-        "streetAddress":"",
-        "postNumber": "",
-        "city": "",  
-        "country": ""
+        "streetAddress":"Censorway 21b",
+        "postNumber": "1413 tårnåsen",
+        "city": "Oslo",  
+        "country": "Norway"
     },
 
     "social" : {
@@ -22,7 +22,7 @@
         "twitter" : "https://twitter.com/GjenferdPS"
     },
 
-    "Projects": [
+    "projects": [
         {
                 "name" : "Alarm system",
                 "description" : "Bygget en alaram IoT enhet som varsler person når noen åpner et skap. Brukte particle photon og diverse sensorer for dette prosjektet."
@@ -35,22 +35,25 @@
         }
         
     ],
-    "Work experience": [
+    "work_experience": [
+
         {
-            "place":"Experis Academy",
-            "city" :"Oslo",
+            "title":"Java fullstack utvikler",
+            "place" :"Experis Academy",
+            "country": "Norway, Oslo",
             "startDate":"04/02/2019",
-            "endDate" :""
+            "endDate" :"current"
         },
 
         {
-            "place":"PayEx",
-            "city" :"Oslo",
-            "startDate":"01/01/18",
-            "endDate" :"01/06/18"
+            "title":"Utvikler",
+            "place" :"PayEx",
+            "country": "Norway, Oslo",
+            "startDate":"01/01/2018",
+            "endDate" :"01/05/2018"
         }
     ],
-    "Education": [
+    "education": [
         {
             "degree": "Intelligente systemer",
             "level": "Bachelor",
@@ -64,7 +67,7 @@
     ],
     
 
-    "Interests" :[
+    "interests" :[
         {
                 "description" : "",
                 "title" : "Gaming"

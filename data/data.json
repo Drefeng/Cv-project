@@ -2,94 +2,87 @@
     "Name":"Billy Infante",
     "Title":"Java fullstack developer",
     "YearOfBirth":"02/02/1996",
-    "Phone": "66666666",
-    "Email":"billy.infante@no.experis.com",
+    "Phone": "55 55 55 55",
+    "Email":"Billy.Infante@no.experis.com",
     "Nationality":"Swedish",
-    "Address":"Hareveien 21b",
     "About":"Billy har en bachelorgrad i intelligente systemer fra Westerdals. Han er en utvikler med kompetanse i fullstack-utvikling og IoT, og er godt kjent med rammeverk som Spring(backend) og frontend biblioteker som ReactJS. Han kjenner godt til Java og byggverktøy Maven, og er kompetent med skytjenester som Firebase og Google Cloud Platform. Videre har han deltatt i skoleprosjekt der han har benyttet seg av agile prosessmetoder som Scrum og Kanban. Han liker å jobbe i team, men jobber også godt selvstendig.",
     "Picture": "/images/Billy_Infante.jpg",
+
+
+    "address": {
+        "streetAddress":"",
+        "postNumber": "",
+        "city": "",  
+        "country": ""
+    },
+
+    "social" : {
+        "linkedin" : "https://www.linkedin.com/in/billy-infante-878406122/",
+        "github" : "https://github.com/Drefeng",
+        "twitter" : "https://twitter.com/GjenferdPS"
+    },
+
     "Projects": [
         {
-            "IoT":{
                 "name" : "Alarm system",
                 "description" : "Bygget en alaram IoT enhet som varsler person når noen åpner et skap. Brukte particle photon og diverse sensorer for dette prosjektet."
-            }
         },
-        
+
+
         {
-             "": {
-                "name" : "",
-                "description" : ""
-            }
+                "name" : "Ecommerce A/B testing ved bruk av maskinlæring",
+                "description" : "lage en E-commerce applikasjon som skal bruke maskinlæring for A/B testing. Teknologier vi brukte er tensorflow, google cloud platform, express, reactjs."
         }
         
     ],
     "Work experience": [
         {
-        "work1":{
-            "place":"",
-            "duration":""
-            }
+            "place":"Experis Academy",
+            "city" :"Oslo",
+            "startDate":"04/02/2019",
+            "endDate" :""
         },
 
         {
-            "work2":{
-            "place":"",
-            "duration":""
-            }
+            "place":"PayEx",
+            "city" :"Oslo",
+            "startDate":"01/01/18",
+            "endDate" :"01/06/18"
         }
     ],
     "Education": [
         {
-        "school1":{
-            "title" : "",
-            "place":"",
-            "duration":""
-            }
+            "degree": "Intelligente systemer",
+            "level": "Bachelor",
+            "institution": "Westerdals",
+            "startDate": "2015",
+            "endDate": "2018",
+            "city": "Oslo",
+            "country": "Norway",
+            "description": "Intelligente systemer bachelor går ut på å automatisere, forenkle og se sammenhenger i gjøremål innen forbrukerteknologi og områder som mobil-betaling, helse, trafikk, sikkerhet og overvåkning."
         }
     ],
-    "social" :[
-        {
-            "github":{
-                "displayname" : "Drefeng",
-                "link" : ""
-            }
-        },
-
-        {    "twitter":{
-                "displayname" : "",
-                "link" : ""
-            }
-        },
-
-        {
-            "linkedin":{
-                "displayname" : "",
-                "link" : ""
-            }
-        }
-    ],
+    
 
     "Interests" :[
         {
-            "Interests1":{
                 "description" : "",
-                "link" : ""
-            }
+                "title" : "Gaming"
+            
         },
 
         {
-            "Interests2":{
-                "description" : "",
-                "link" : ""
-            }
+
+                "description" : "Programming",
+                "title" : "Read books"
+            
         },
         
         {
-            "Interests3":{
+  
                 "description" : "",
-                "link" : ""
-            }
+                "title" : ""
+            
         }
     ]
 }

@@ -13,21 +13,27 @@
                 "project1":{
                     "name" : "",
                     "description" : ""
-                },
-
-                "project2": {
+                }
+            },
+            
+            {
+                 "project2": {
                     "name" : "",
                     "description" : ""
                 }
             }
+            
         ],
         "Work experience": [
             {
             "work1":{
                 "place":"",
                 "duration":""
-                },
-            "work2":{
+                }
+            },
+
+            {
+                "work2":{
                 "place":"",
                 "duration":""
                 }
@@ -47,12 +53,16 @@
                 "github":{
                     "displayname" : "",
                     "link" : ""
-                },
-                "twitter":{
+                }
+            },
+
+            {    "twitter":{
                     "displayname" : "",
                     "link" : ""
-                },
+                }
+            },
 
+            {
                 "linkedin":{
                     "displayname" : "",
                     "link" : ""
@@ -65,12 +75,17 @@
                 "Interests1":{
                     "description" : "",
                     "link" : ""
-                },
+                }
+            },
+
+            {
                 "Interests2":{
                     "description" : "",
                     "link" : ""
-                },
-
+                }
+            },
+            
+            {
                 "Interests3":{
                     "description" : "",
                     "link" : ""

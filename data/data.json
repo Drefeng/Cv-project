@@ -1,82 +1,97 @@
-
-    {
-        "Name":"Billy Infante",
-        "Title":"Java fullstack developer",
-        "YearOfBirth":"02/02/1996",
-        "Phone": "",
-        "Email":"billy.infante@no.experis.com",
-        "Nationality":"Sweden",
-        "Address":"Hareveien 21b",
-        "About":"Billy har en bachelorgrad i intelligente systemer fra Westerdals. Han er en utvikler med kompetanse i fullstack-utvikling og IoT, og er godt kjent med rammeverk som Spring(backend) og frontend biblioteker som ReactJS. Han kjenner godt til Java og byggverktøy Maven, og er kompetent med skytjenester som Firebase og Google Cloud Platform. Videre har han deltatt i skoleprosjekt der han har benyttet seg av agile prosessmetoder som Scrum og Kanban. Han liker å jobbe i team, men jobber også godt selvstendig.",
-        "Picture": "/images/Billy_Infante.jpg",
-        "Projects": [
-            {
-                "project1":{
-                    "name" : "",
-                    "description" : ""
-                },
-
-                "project2": {
-                    "name" : "",
-                    "description" : ""
-                }
+{
+    "Name":"Billy Infante",
+    "Title":"Java fullstack developer",
+    "YearOfBirth":"02/02/1996",
+    "Phone": "66666666",
+    "Email":"billy.infante@no.experis.com",
+    "Nationality":"Swedish",
+    "Address":"Hareveien 21b",
+    "About":"Billy har en bachelorgrad i intelligente systemer fra Westerdals. Han er en utvikler med kompetanse i fullstack-utvikling og IoT, og er godt kjent med rammeverk som Spring(backend) og frontend biblioteker som ReactJS. Han kjenner godt til Java og byggverktøy Maven, og er kompetent med skytjenester som Firebase og Google Cloud Platform. Videre har han deltatt i skoleprosjekt der han har benyttet seg av agile prosessmetoder som Scrum og Kanban. Han liker å jobbe i team, men jobber også godt selvstendig.",
+    "Picture": "/images/Billy_Infante.jpg",
+    "Projects": [
+        {
+            "IoT":{
+                "name" : "Alarm system",
+                "description" : "Bygget en alaram IoT enhet som varsler person når noen åpner et skap. Brukte particle photon og diverse sensorer for dette prosjektet."
             }
-        ],
-        "Work experience": [
-            {
-            "work1":{
-                "place":"",
-                "duration":""
-                },
+        },
+        
+        {
+             "": {
+                "name" : "",
+                "description" : ""
+            }
+        }
+        
+    ],
+    "Work experience": [
+        {
+        "work1":{
+            "place":"",
+            "duration":""
+            }
+        },
+
+        {
             "work2":{
-                "place":"",
-                "duration":""
-                }
+            "place":"",
+            "duration":""
             }
-        ],
-        "Education": [
-            {
-            "school1":{
-                "title" : "",
-                "place":"",
-                "duration":""
-                }
+        }
+    ],
+    "Education": [
+        {
+        "school1":{
+            "title" : "",
+            "place":"",
+            "duration":""
             }
-        ],
-        "social" :[
-            {
-                "github":{
-                    "displayname" : "",
-                    "link" : ""
-                },
-                "twitter":{
-                    "displayname" : "",
-                    "link" : ""
-                },
+        }
+    ],
+    "social" :[
+        {
+            "github":{
+                "displayname" : "Drefeng",
+                "link" : ""
+            }
+        },
 
-                "linkedin":{
-                    "displayname" : "",
-                    "link" : ""
-                }
+        {    "twitter":{
+                "displayname" : "",
+                "link" : ""
             }
-        ],
+        },
 
-        "Interests" :[
-            {
-                "Interests1":{
-                    "description" : "",
-                    "link" : ""
-                },
-                "Interests2":{
-                    "description" : "",
-                    "link" : ""
-                },
-
-                "Interests3":{
-                    "description" : "",
-                    "link" : ""
-                }
+        {
+            "linkedin":{
+                "displayname" : "",
+                "link" : ""
             }
-        ]
+        }
+    ],
+
+    "Interests" :[
+        {
+            "Interests1":{
+                "description" : "",
+                "link" : ""
+            }
+        },
+
+        {
+            "Interests2":{
+                "description" : "",
+                "link" : ""
+            }
+        },
+        
+        {
+            "Interests3":{
+                "description" : "",
+                "link" : ""
+            }
+        }
+    ]
 }
-    
+            
+

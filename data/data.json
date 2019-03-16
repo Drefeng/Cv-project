@@ -5,9 +5,22 @@
         "Phone": "",
         "Email":"",
         "Nationality":"",
-        "Address":"",
         "About":"",
         "Picture": "",
+
+        "address": {
+            "streetAddress":"",
+            "postNumber": "",
+            "city": "",  
+            "country": ""
+        },
+    
+        "social" : {
+            "linkedin" : "",
+            "github" : "",
+            "twitter" : ""
+        },
+
         "Projects": [
             {
                     "name" : "",
@@ -46,19 +59,6 @@
                 "city": "",
                 "country": "",
                 "description": ""
-            }
-        ],
-        "social" :[
-            {
-                    "linkedin" : ""
-            },
-
-            { 
-                    "github" : ""
-            },
-
-            {
-                    "twitter" : ""
             }
         ],
 
